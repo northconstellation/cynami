@@ -1,0 +1,32 @@
+.b-container__header .rake {
+    outline: 1px solid #ff0;
+    width: 100%;
+    position: absolute;
+    height: 84px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    margin: auto;
+    border-top: 2px solid #FFFFFF;
+    border-left: 1920px solid #FFF;
+    border-bottom: 120px solid transparent;
+    border-right: 1920px solid transparent;
+}
+
+
+.b-container__header .rake2 {
+    outline: 1px solid #0f0;
+    width: 100%;
+    position: absolute;
+    height: 80px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    margin: -2px auto auto;
+    border-top: 2px solid #97c4f1;
+    border-left: 1920px solid #97c4f1;
+    border-bottom: 150px solid transparent;
+    border-right: 1920px solid transparent;
+}

@@ -1,0 +1,357 @@
+@media screen and (max-width: 768px) and (min-width: 640px){
+    .content_middle{
+        padding-left:2%;
+        padding-right:2%;
+    }
+
+    .b-btnTop__link {
+        text-align: center;
+        padding: 5px 15px;
+    }
+
+    .b-topMenu__link {
+        font-size: 10px;
+        padding: 0 0 19px 0;
+    }
+
+    .b-logo__img {
+        max-width: 100%;
+    }
+
+    .b-top__topMenu {
+        width: 66%;
+        margin: 0 1%;
+    }
+
+    .b-header__subtitle {
+        margin: 10px 0 35px;
+    }
+
+    .b-topMenu__item {
+        margin: 0 0 0 4%;
+    }
+
+    .b-topMenu__item:before {
+        top: 6px;
+        left: -10px;
+    }
+
+    .b-header__text {
+        font-size: 22px;
+        color: #ffffff;
+        font-family: 'robotoregular';
+        line-height: 1.3;
+    }
+    .b-btnCenter__link {
+        padding: 23px 0;
+        width: 60%;
+    }
+    .b-header {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+    }
+
+    .blackTitle {
+        font-size: 30px;
+    }
+
+    .whiteTitle {
+        font-size: 30px;
+    }
+
+    .b-fact__factBlock {
+        font-size: 0;
+        margin: 50px 0 0 0;
+    }
+
+    .b-factItem__img {
+        max-width: 90%;
+    }
+
+    .b-factItem {
+        font-size: 18px;
+    }
+
+    .b-factItem__textBlock {
+        top: 110px;
+    }
+
+    .b-blockListResult__item {
+        font-size: 14px;
+        min-height: 47px;
+    }
+
+    .b-strongList__text {
+        font-size: 16px;
+    }
+
+    .b-exlusive__exlusiveBlock {
+        background-size: contain;
+    }
+
+    .b-exlusiveBlock__exlusiveLine {
+        margin: 5px 0 26px;
+    }
+
+    .b-exlusiveLine__exlusiveCell {
+        width: 26%;
+        margin: 0 0% 0 4%;
+    }
+
+    .b-exlusiveLine__exlusiveCell:first-child {
+        width: 25%;
+        margin: 0 0 0 0%;
+    }
+
+    .b-exlusiveCell__text {
+        font-size: 15px;
+    }
+
+    .b-exlusiveCell__textBold {
+        font-size: 15px;
+    }
+
+    .b-exlusiveBlock {
+        padding: 105px 0 70px;
+    }
+
+    .b-specialLeft__img {
+        bottom: -28px;
+        max-width: 100%;
+        left: 0px;
+    }
+
+    .b-exlusiveLine {
+        position: relative;
+        top: -20px;
+    }
+
+    .b-specialRight__title {
+        font-size: 30px;
+    }
+
+    .b-specialRight__text {
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 10px 0 20px 0;
+    }
+
+    .b-specialList__item {
+        font-size: 13px;
+        text-align: left;
+        margin: 0 0 10px;
+    }
+
+    .b-specialRight__specialList {
+        margin: 0 0 20px;
+    }
+
+    .b-btnBlue__linkLeft {
+        outline: none;
+        border-radius: 2px;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'intro_regular';
+        font-size: 16px;
+        line-height: 1;
+        padding: 23px 0;
+        margin: 0px;
+        text-decoration: none;
+        text-shadow: none;
+        text-transform: uppercase;
+        color: #fff;
+        background: linear-gradient(0deg, #1c70c4 0%, #1c70c4 100%);
+        border: 3px solid transparent;
+        -moz-border-image: -moz-linear-gradient(left, #1758ba 0%, #2c8ce5 100%);
+        -webkit-border-image: -webkit-linear-gradient(left, #1758ba 0%, #2c8ce5 100%);
+        border-image: linear-gradient(to right, #1758ba 0%, #2c8ce5 100%);
+        border-image-slice: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .b-itemFormat__img {
+        max-width: 100%;
+    }
+
+    .b-itemFormat__textBlock {
+        top: 70px;
+    }
+
+    .b-itemFormat__itemTitle {
+        font-size: 14px;
+    }
+
+    .b-itemFormat__itemText {
+        font-size: 16px;
+    }
+
+    .b-authorLeft__img {
+        max-width: 100%;
+    }
+
+    .b-author__title .blackTitle {
+        font-size: 24px;
+    }
+
+    .b-author__authorRight {
+        width: 60%;
+        margin: 110px 0 0 4%;
+    }
+    .b-author__subtitle {
+        font-size: 16px;
+        padding: 5px 0 10px;
+    }
+
+    .b-listAuthor__item {
+        font-size: 14px;
+        padding: 0 0 0 20px;
+    }
+
+    .b-listCase__leftListCase {
+        display: inline-block;
+        width: 49%;
+        vertical-align: top;
+        margin: 0 2% 0 0;
+    }
+
+    .b-authorRight__recommend{
+        background-size: contain;
+    }
+
+    .b-recommendCase__img {
+        max-width: 239px;
+    }
+
+    .b-recommendCase__content {
+        padding: 0 0 0 20px;
+    }
+
+    .b-recommendRight__title {
+        font-size: 22px;
+        text-align: left;
+        color: #1c70c4;
+        padding: 20px 0 15px;
+    }
+
+    .b-recommendRight__text {
+        line-height: 1.5;
+    }
+
+    .b-recommendRight__sign {
+        padding: 2% 0 0;
+    }
+
+    .b-priceRed {
+        display: block;
+    }
+
+    .b-part__packetBlock {
+        font-size: 0;
+        margin: 20px 0 0;
+    }
+
+    .b-packetItem__priceNum:before {
+        left:3px;
+    }
+
+    .b-packetItem__priceNum {
+        margin: 12px 0;
+    }
+
+    .b-packetItem__list__item {
+        font-size: 12px;
+    }
+
+    .b-packetItem__list {
+        min-height: 315px;
+    }
+
+    .b-masterCell__text {
+        font-size: 14px;
+        padding: 2px 2px 30px;
+        min-height: 184px;
+    }
+
+    .b-masterCell__name {
+        font-size: 18px;
+    }
+
+    .b-masterCell__name {
+        padding: 12px 2px 15px;
+    }
+
+    .b-contactMenu__item {
+        font-size: 11px;
+        margin: 0% 0 0 2%;
+    }
+
+    .b-footerMenu__item {
+        font-size: 12px;
+        margin: 0% 0 0 2%;
+    }
+
+    #exlusive_parralax {
+        background: url("../img/exlusive_bg1.jpg");
+        background-attachment:inherit;
+        position: relative;
+    }
+
+    #format_parralax {
+        background: url("../img/format_bg1.jpg");
+        background-attachment:inherit;
+        position: relative;
+    }
+
+    #part_parralax {
+        background: url("../img/part_bg1.jpg");
+        background-attachment:inherit;
+        position: relative;
+    }
+
+
+    .b-programmList__text p {
+        font-size: 12px;
+    }
+
+    .b-programmList__point {
+        font-size: 14px!important;
+    }
+
+    .item_height {
+        min-height: 0;
+    }
+
+    .b-whom__subtitle {
+        font-size: 14px;
+        margin: 30px 0 20px;
+        min-height: 0;
+    }
+
+    .b-blockListwhom__item {
+        font-size: 14px;
+        margin: 0 0 20px;
+        padding: 0 0 0 30px;
+    }
+
+    .b-blockListwhom__item:before {
+        top: -3px;
+        left: 0px;
+        background-size: 80%;
+    }
+
+    .b-packetItem__list {
+        padding: 0 20px;
+    }
+
+    .b-btnTop__link:after {
+        display: none;
+    }
+
+    #whom_parralax{
+        background: url("../img/whom_bg2.jpg");
+        background-attachment: inherit;
+        position: relative;
+    }
+}

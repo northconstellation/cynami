@@ -1,0 +1,243 @@
+@media screen and (max-width: 960px) and (min-width: 768px){
+
+    .content_middle{
+        padding-left:2%;
+        padding-right:2%;
+    }
+
+    .b-btnTop__link {
+        text-align: center;
+    }
+
+    .b-topMenu__link {
+        font-size: 12px;
+    }
+
+    .b-logo__img {
+        max-width: 100%;
+    }
+
+    .b-top__topMenu {
+        width: 56%;
+        margin: 0 2%;
+    }
+
+    .b-factItem__img {
+        max-width: 90%;
+    }
+
+    .b-factItem {
+        font-size: 18px;
+    }
+
+    .b-factItem__textBlock {
+        top: 110px;
+    }
+
+    .b-blockListResult__item {
+        font-size: 16px;
+        min-height: 57px;
+    }
+
+    .b-exlusiveBlock__exlusiveLine {
+        margin: 0px 0 56px;
+    }
+
+    .b-exlusiveLine__exlusiveCell {
+        width: 25%;
+        margin: 0 0 0 12.5%;
+    }
+
+    .b-exlusiveLine__exlusiveCell:first-child {
+        margin: 0;
+    }
+
+    .b-specialLeft__img {
+        bottom: -28px;
+    }
+
+    .b-itemFormat__img {
+        max-width: 100%;
+    }
+
+    .b-itemFormat__textBlock {
+        top: 90px;
+    }
+
+    .b-authorLeft__img {
+        max-width: 100%;
+    }
+
+    .b-author__authorRight {
+        width: 60%;
+        margin: 110px 0 0 4%;
+    }
+
+    .b-listAuthor__item {
+        font-size: 14px;
+        padding: 0 0 0 20px;
+    }
+
+    .b-listCase__leftListCase {
+        display: inline-block;
+        width: 49%;
+        vertical-align: top;
+        margin: 0 2% 0 0;
+    }
+
+    .b-authorRight__recommend{
+        background-size: contain;
+    }
+
+    .b-recommendCase__img {
+        max-width: 270px;
+    }
+
+    .b-recommendCase__content {
+        padding: 0 0 0 80px;
+    }
+
+    .b-recommendRight__text {
+        line-height: 1.5;
+    }
+
+    .b-recommendRight__sign {
+        padding: 5% 0 0;
+    }
+
+    .b-priceRed {
+        display: block;
+    }
+
+    .b-packetItem__priceNum:before {
+        left: 23px;
+    }
+
+    .b-packetItem__priceNum {
+        margin: 12px 0;
+    }
+
+    .b-packetItem__list__item {
+        font-size: 15px;
+    }
+
+    .b-packetItem__list {
+        min-height: 165px;
+    }
+
+    .b-masterCell__text {
+        font-size: 14px;
+        padding: 2px 10px 30px;
+        min-height: 165px;
+    }
+
+    .b-masterCell__name {
+        padding: 12px 10px 15px;
+    }
+
+    .b-contactMenu__item {
+        font-size: 14px;
+        margin: 0% 0 0 2%;
+    }
+
+    .b-footerMenu__item {
+        font-size: 14px;
+        margin: 0% 0 0 2%;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+
+    #result_parralax {
+        background: none;
+    }
+
+    .result_mob_bg {
+        background: url("../img/result_bg2.jpg");
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+    }
+
+    #exlusive_parralax {
+        background: none;
+    }
+
+    .exlusive_mob_bg {
+        background: url("../img/exlusive_bg1.jpg");
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+
+    #format_parralax {
+        background: none;
+    }
+
+    .format_mob_bg {
+        background: url("../img/format_bg_mob.jpg");
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    #part_parralax {
+        background: none;
+    }
+
+    .part_mob_bg {
+        background: url("../img/part_bg1.jpg");
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    #whom_parralax {
+        background: none;
+    }
+
+    .whom_mob_bg {
+        background: url("../img/whom_bg2.jpg");
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .b-container__header .b-content__leftHeader {
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        margin: 0 auto 5%;
+        max-width: 700px;
+    }
+
+    .b-container__header .b-content__rightHeader {
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        margin: 0px 0 0 0;
+    }
+
+    .b-packetItem__header {
+        font-size: 15px;
+    }
+
+    .b-packetItem__priceNum {
+        font-size: 14px;
+    }
+
+    .b-priceRed {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .b-partnersRow__partnersCell:first-child {
+        margin: 0;
+    }
+
+    .b-partnersRow__partnersCell {
+        display: block;
+        vertical-align: middle;
+        width: 100%;
+        margin: 10% auto 0;
+    }
+}

@@ -1,0 +1,287 @@
+/***************************************************************
+*
+*	������:     http://SergeyChunkevich.com
+*	�� ������:  http://sergeychunkevich.com/RuBizModal-Article
+*
+****************************************************************/
+
+
+body {  }
+#brain { width:400px; height:365px; position:absolute; top:45%; left:50%; margin-top:-250px; margin-left:-200px; }
+#info { background:#fefefe; width:700px; position:absolute; top:65%; left:50%; margin-left:-350px; border:2px solid #ccc; border-radius:20px; -moz-border-radius:20px; -webkit-border-radius:20px; }
+	#info center { color:#555; font-size:18px; padding:25px 30px 10px 30px; line-height:20px; }
+	#info .info {	width:70px; position:absolute; top:-40px; left:50%; margin-left:-35px; }
+
+
+
+/* ================================= RuBizModal ================================= */
+#RuBizModal { width:940px; position:fixed; display:none; top: 1%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    padding-right: 0 !important;
+	border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; box-shadow:0.07em 0em 2em #000; }
+#RuBizModal .RuBizModal_main { width:100%;  position:relative; overflow:auto; padding: 0px 0; }
+	#RuBizModal #close { position:absolute; left:900px; width:19px; height:19px; top: 10px; }
+	#RuBizModal #close #rbm-close { width:19px; height:19px; border:0; display:inline-block;
+		background:url('data:image/gif;base64,R0lGODlhEgASAKIHAHd3d93d3bu7u4iIiKqqqu7u7v///////yH5BAEAAAcALAAAAAASABIAAANReLrc/pCJR6AwVWJ3zVbdB3pkFRpFphCkx5LF4AxtG0NDUd8R7emyyOmnaoQKuhLnh8wxiwIdMiDLIQsBAIMwDR4GAay2QaA2wGNHcZGOuA8JADs='); }
+
+#simplemodal-overlay {
+    background-color: #FFFEFE !important;
+}
+
+/***************************************************************
+*
+*	������:     http://SergeyChunkevich.com
+*	�� ������:  http://sergeychunkevich.com/RuBizModal-Article
+*
+****************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('fonts/raleway-bold-webfont.eot');
+    src: url('fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/raleway-bold-webfont.woff2') format('woff2'),
+    url('fonts/raleway-bold-webfont.woff') format('woff'),
+    url('fonts/raleway-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayextrabold';
+    src: url('fonts/raleway-extrabold-webfont.eot');
+    src: url('fonts/raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/raleway-extrabold-webfont.woff2') format('woff2'),
+    url('fonts/raleway-extrabold-webfont.woff') format('woff'),
+    url('fonts/raleway-extrabold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    /*line-height: 1;*/
+}
+img {
+    border: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.b-containerPopup {
+    max-width: 940px;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+
+.b-container__headerPopup {
+    /*background: url(../img/bg.jpg) top center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    display: table;
+    width: 100%;
+}
+
+.b-headerPopup {
+    margin: 2.5% auto 2% auto !important;
+    text-align: center;
+}
+
+.content_middlePopup {
+    max-width: 940px;
+    padding: 0 1%;
+    margin: 0 auto;
+}
+
+.b-headerPopup {
+    font-size: 0;
+}
+
+.b-headerPopup__leftHeaderPopup {
+    display: inline-block;
+    width:32% ;
+    vertical-align: top;
+    margin: 0 2%;
+    text-align: left;
+}
+
+.leftHeader__imgPopup {
+    max-width: 270px;
+}
+
+.b-header__rightHeaderPopup {
+    display: inline-block;
+    width:64% ;
+    vertical-align: top;
+}
+
+.b-rightHeaderPopup {
+    color: #171717;
+    font-size: 16px;
+}
+
+.b-rightHeaderPopup__important {
+    font-size: 52px;
+    text-shadow: -1px -1px 1px rgba(18, 4, 0, 0.63);
+    color: #ffac0c;
+    font-family: 'ralewaybold';
+    margin: 0 0 30px 0;
+}
+
+.b-rightHeaderPopup__slogan {
+    padding: 13px 30px;
+    border: 3px solid rgba(160, 186, 206, 0.44);
+    background-color: rgba(0, 142, 208, 0.44);
+    margin: 10px 25px 15px 25px
+}
+
+.b-sloganPopup {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.b-rightHeaderPopup__questions {
+    font-size: 21px;
+    text-transform: uppercase;
+    margin: 0px 0 8px;
+}
+
+.b-rightHeaderPopup__text {
+    font-size: 21px;
+    line-height: 1.2;
+    margin: 20px 0 20px 0;
+}
+
+.b-rightHeaderPopup__otvet {
+    font-size: 36px;
+    margin: 30px 0 4px 0;
+    color: #385bab;
+    font-family: 'ralewayextrabold';
+}
+
+.b-rightHeaderPopup__textSmall {
+    font-size: 26px;
+}
+
+.b-rightHeaderPopup__textBold {
+    font-size: 25px;
+    color: #385bab;
+    font-family: 'ralewayextrabold';
+    text-transform: uppercase;
+}
+
+.b-rightHeaderPopup__textBottom {
+    font-size: 12px;
+    margin: 30px 0 0;
+    line-height: 1.1;
+    font-style: italic;
+}
+
+.b-container__contentPopup {
+    padding: 10px 0 15px 0;
+    background: #385bab;
+}
+
+.b-contentPopup__title {
+    font-size: 25px;
+    margin:5px 0 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.ss-form-container{
+    width: 100% !important;
+}
+
+.ss-form-container {
+    font-size: 0 !important;
+}
+
+.b-form__itemPopup {
+    list-style: none outside none !important;
+    margin: 0;
+    background-color: transparent !important;
+    color: black;
+    display: inline-block !important;
+    height: auto !important;
+    padding: 0 !important;
+    vertical-align: top;
+    width: 30% !important;
+    margin: 0 1.5% 0 1.5% !important;
+}
+
+.b-form__itemBtn {
+    background-color: transparent !important;
+}
+
+.b-form__input {
+    color: #002a5a !important;
+    font-size: 18px !important;
+    height: auto !important;
+    margin: 0 0 0 0!important;
+    padding: 10px 10px !important;
+    position: relative !important;
+    width: 100% !important;;
+    z-index: 10;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #002958;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.b-form__garantyPopup {
+    font-size: 17px !important;
+    color: #ffffff !important;
+    font-style: italic;
+    background-color: transparent;
+    display: block !important;
+    margin: 15px 0 15px 0 !important;
+    width: 100% !important;
+    text-align: center;
+}
+
+.b-btn__inputPopup {
+    font-size: 23px !important;
+    text-transform: uppercase !important;
+    color: #ffffff !important;
+    padding: 10px 35px;
+    background: rgb(255, 172, 12);
+    outline: none;
+    font-family: 'open_sanssemibold';
+    border: 0 !important;
+    text-shadow: -1px -1px 1px rgba(18, 4, 0, 0.53);
+}
+
+.b-btn__inputPopup:hover {
+    background: rgb(230, 154, 12);
+}
+
+.modal-open {
+    padding-right: 0 !important;
+}
